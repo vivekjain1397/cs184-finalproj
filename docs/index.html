@@ -25,41 +25,90 @@
 
 <h1 align="middle">CS 184: Computer Graphics and Imaging, Spring 2018</h1>
 <h1 align="middle">Final Project</h1>
-<h2 align="middle">Nicholas Cai, CS184-???</h2>
-<h2 align="middle">Vivek Jain, CS184-adw</h2>
-<h2 align="middle">Katharine Jiang, CS184-agj</h2>
+<h3 align="middle">Nicholas Cai, CS184-???</h3>
+<h3 align="middle">Vivek Jain, CS184-adw</h3>
+<h3 align="middle">Katharine Jiang, CS184-agj</h3>
 
-<br><br>
+<br>
 
 
-<h2>If Pompeii Were Made Of Chocolate</h2>
-<h2>Team:</h2>
+<h2 align="middle">I tried to be chill but you're so hot I melted</h2>
+<h2 align="middle">Team:</h2>
 <ol>
-  <li>Nicholas Cai, SID: </li>
-  <li>Vivek Jain, SID: </li>
-  <li>Katharine Jiang, SID: </li>
+  <li>Nicholas Cai, SID: ????</li>
+  <li>Vivek Jain, SID: ????</li>
+  <li>Katharine Jiang, SID: 26175480</li>
 </ol>
-<h2>Summary:</h2>
-<p>Our project has two main parts to it, one is simulating lava and the second is simulating melting XYZ. Through this project, we plan to use different XYZ maths of some sort blah blah.</p>
+<h2 align="middle">Summary:</h2>
+<p>Our project will simulate the melting and flowing of viscous liquids. Specially, we will attempt to render lava flowing into an object such as a chocolate bunny and melting it.</p>
+
+<br>
 
 <h2 align="middle">Purpose/Problem Description:</h2>
-<p></p>
+<p>We wanted to challenge ourselves with a topic that is still a open problem in the graphics community. The problem is finding an efficient and accurate simulation of phase transitions for materials that can melt, flow, and solidify without using very complex implementations. The main challenge is simulating high viscosity liquids, such as lava and chocolate. We see viscous liquids everywhere in daily life: ketchup, toothpaste, yogurt, lotion, etc. Therefore this challenge is important because so many different animations require this kind of rendering in an accurate and quick way.</p>
+<p>There are 2 sub-challenges we need to solve in order to solve the full material phase transition. One is the method of melting. There are currently several different approaches: particle-based melting, mesh-based melting, and grid-based melting. Second, we need the heat and phase transition simulation. There are also several approaches to model phase transition using varied viscosity with temperature, latent heat, etc. We will most likely use a version of the grid-based melting and a simplified model for phase transition.</p>
+
+<br>
 
 <h2 align="middle">Goals and Deliverables:</h2>
 <h3>What we plan to deliver</h3>
+<p>For a successful project, we must accomplish the melting of a chocolate bunny, with a heat source that we place anywhere in the scene. The heat source can be invisible. This is the main crux of our project - simulating phase transition for a viscous liquid. To solve this, we would need to have figured out what methods and formulas to use for heat transfer and phase transition. We don’t need to worry about simulating the heat source at this time - it can just be “placed” to the right of the bunny in the scene, like an invisible heater. We also want to concentrate on one material and get that working before experimenting with other materials such as tin or wax.</p>
+<p>The image below is an example of what we hope to achieve (with a bunny). This is taken from page 6 of research paper: <a href="https://labs.cs.sunysb.edu/labs/projects/amorphous/WXMWebsite/Melting.pdf">Link</a>
+</p>
+<img src="melted_glass.png" width="500px">
 
 <h3>What we hope to deliver</h3>
+<p>If we can melt the bunny in a reasonable amount of time, we hope to add a visible flowing of lava, which will the heat source that melts the bunny. The lava flow is also a highly viscous liquid, and we must use the methods we used for the bunny to simulate the lava flow. However, an additional challenge now is to simulate the lava hitting the bunny object in the scene, as well as simulating heat transfer to the bunny with a dynamic heat source.</p>
 
+<br>
 
 <h2 align="middle">Schedule:</h2>
-<h3>Week 1</h3>
-<h3>Week 2</h3>
-<h3>Week 3</h3>
-<h3>Week 4</h3>
+<h3>Week 1 (4/2 - 4/8)</h3>
+<p>See what parts of the “starter code” we can use. Read our references more carefully, and conclude on which methods to use.</p>
+
+<h3>Week 2 (4/8 - 4/15)</h3>
+<p>Implement heat transfer method and start phase transition method</p>
+
+<h3>Week 3 (4/16 - 4/22)</h3>
+<p>Implement phase transition method and start lava</p>
+
+<h3>Week 4 (4/23 - 4/29)</h3>
+<p>Lava implementation</p>
+
+<h3>Week 5ish (4/30 - 5/4)</h3>
+<p>Final adjustments, if lava isn’t working, experiment with different materials and heat source intensities/locations for bunny</p>
+<p>Write report</p>
+
+<br>
 
 <h2 align="middle">Resources:</h2>
-<a href="https://github.com/bkueng/lava_fluid_simulation/tree/master/src">Lava Fluid Simulation</a>
-<a href="http://alexey.stomakhin.com/research/siggraph2014_melt.pdf">Melting</a>
+<ul>
+  <li>
+    <a href="https://github.com/bkueng/lava_fluid_simulation/tree/master/src">Lava fluid simulation</a>
+    A starting point for our implementation. We will use this as skeleton code, and change large portions of the code to fit our needs.
+  </li>
+  <li>
+    <a href="http://alexey.stomakhin.com/research/siggraph2014_melt.pdf">MPM</a>
+    This is the most recent research paper that describes a new method of simulating phase transitions - MPM (material point method).
+  </li>
+  <li>
+    <a href="https://www.cc.gatech.edu/~turk/my_papers/melt.pdf">MAC</a>
+    This is a highly cited research paper that outlines a grid based melting method - MAC (marker and cell method). 
+  </li>
+  <li>
+    <a href="https://labs.cs.sunysb.edu/labs/projects/amorphous/WXMWebsite/Melting.pdf">Simplified phase transition</a>
+    This paper describes a simplified solution of phase transition.
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
 
 
 </body>
