@@ -24,7 +24,7 @@
 <body>
 
 <h1 align="middle">CS 184: Computer Graphics and Imaging, Spring 2018</h1>
-<h1 align="middle">Final Project</h1>
+<h1 align="middle">Final Project: Milestone Status Report</h1>
 <h3 align="middle">Nicholas Cai, CS184-afc</h3>
 <h3 align="middle">Vivek Jain, CS184-adw</h3>
 <h3 align="middle">Katharine Jiang, CS184-agj</h3>
@@ -39,6 +39,47 @@
   <li>Vivek Jain, SID: 26585150</li>
   <li>Katharine Jiang, SID: 26175480</li>
 </ol>
+
+<h2 align="middle">Previous schedule/attempt:</h2>
+<p>Our fresh minds started this project with the hopes of building a melting simulator. We spent countless hours trying to find a barebones framework to support our melting simulation, but our efforts were fruitless. Also, we realized that due to time constraints, our original plan was probably not feasible. Therefore, we decided to focus on a lava simulator, since lava is just a highly viscous fluid, and we found a good number of fluid simulator frameworks. However, after reading through multiple research papers on lava flow, we realized that realistically, we may not have time to implement all the factors necessary: lava surface, heat source, textures, etc.</p>
+<br>
+<p>Finally, we decided to focus on particle simulation. Asking around, we found out that a lot of other teams were working on fluid simulations. So we decided to implement something that doesn’t get as much attention: fluid surface rendering.  </p>
+
+<h2 align="middle">Pivot:</h2>
+<p>With newfound motivation, we have decided to create a screen space fluid rendering with curvature flow. As a framework, we are using a previous particle simulation project and creating a realistic rendering of flowing or falling water and using the following paper (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.443.6926&rep=rep1&type=pdf). To smooth the particles we plan on using an algorithm called curvature flows. This involves drawing a surface that minimizes the curvature from particle to particle on the surface of the fluid. There are certain details that we can later add, such as foam, caustics, etc. These will make our rendering seem more realistic, but we will only add them once we get a surface to generate first. </p>
+
+<h2 align="middle">Current Results:</h2>
+<p>We currently have a working fluid/particle simulator. We implemented surface depth to each particle, as well as a depth buffer. As you can see below, each particle is colored based on its depth. Next steps would be to implement smoothing (curvature flow) so that the particles are “smoothed together” like a surface.</p>
+<img src="current.png" width="500px">
+
+<h2 align="middle">Expected Results:</h2>
+<p>We expect to have a realistic simulation of 3D water that looks similar to:</p>
+<br>
+<img src="prospective.png" width="500px">
+
+<h2 align="middle">New Schedule Deadlines:</h2>
+<p>4/25: Smoothing Curvature flow algorithm implementation</p>
+<br>
+<p>4/27: Adding noise and other smoothing effects to create a more realistic render</p>
+<br>
+<p>4/29: Realistic visualization of water </p>
+<br>
+<p>4/30-5/1: Work on poster and different environment visualizations</p>
+<br>
+<p>5/4: Submit final report and project</p>
+<br>
+
+<a href="https://docs.google.com/presentation/d/15z88IZPvQC7tkGd_iNjIl5kJken71R0Kk5AvQ3h1SDM/edit?usp=sharing" align="middle">Slide Deck</a>
+
+<a href="https://docs.google.com/presentation/d/15z88IZPvQC7tkGd_iNjIl5kJken71R0Kk5AvQ3h1SDM/edit?usp=sharing" align="middle">Video Presentation</a>
+
+
+
+
+
+
+<h1>BELOW THIS LINE IS DEPRACATED MATERIAL</h1>
+
 <h2 align="middle">Summary:</h2>
 <p>Our project will simulate the melting and flowing of viscous liquids. Specially, we will attempt to render lava flowing into an object such as a chocolate bunny and melting it.</p>
 
