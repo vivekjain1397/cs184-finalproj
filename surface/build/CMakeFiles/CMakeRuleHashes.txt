@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+63becd4eec1c9eb4b2f5713c114a14f5 eng/deps/assimp-3.3.1/test/CMakeFiles/gtest
+75f2750f201f6c8f06df224228b36ae0 eng/deps/assimp-3.3.1/test/CMakeFiles/gtest-complete
+0f9048132c86c3b1d653663042305398 eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-build
+fe377f1c9ef71340b7d454f97a2912c7 eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-configure
+869a18324afe712f20bf6840df635e91 eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-download
+49bfe1a73ef5f5a0e0d46742e038d928 eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-install
+c99e4455638161827bb34d3593a505e5 eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-mkdir
+3aa246be643bf2d17f9ae989bc6a25b1 eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-patch
+199574d9c510190d4b71d02d1900b255 eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-update
+2e9a324229e17d5d00956a61756cb59b eng/deps/glfw/CMakeFiles/uninstall

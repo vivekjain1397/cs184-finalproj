@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/CMakeFiles/gtest
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/CMakeFiles/gtest.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/CMakeFiles/gtest-complete.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-install.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-mkdir.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-download.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-update.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-patch.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-configure.rule
+/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-build.rule

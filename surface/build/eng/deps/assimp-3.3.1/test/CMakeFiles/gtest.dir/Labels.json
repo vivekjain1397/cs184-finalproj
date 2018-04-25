@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/CMakeFiles/gtest"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/CMakeFiles/gtest.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/CMakeFiles/gtest-complete.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-install.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-mkdir.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-download.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-update.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-patch.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-configure.rule"
+		},
+		{
+			"file" : "/Users/kj/cs184/cs184-finalproj/surface/build/eng/deps/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest"
+		],
+		"name" : "gtest"
+	}
+}

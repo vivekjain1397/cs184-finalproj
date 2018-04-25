@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kj/cs184/cs184-finalproj/surface/eng/deps/assimp-3.3.1/contrib/ConvertUTF/ConvertUTF.c
+ConvertUTF.h
+/Users/kj/cs184/cs184-finalproj/surface/eng/deps/assimp-3.3.1/contrib/ConvertUTF/ConvertUTF.h
+stdio.h
+-
+
+/Users/kj/cs184/cs184-finalproj/surface/eng/deps/assimp-3.3.1/contrib/ConvertUTF/ConvertUTF.h
+
